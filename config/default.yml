@@ -7,11 +7,37 @@ recipes:                                       # Configs are parsed and every li
 attributes:
     homebrewalt:
         apps:
+            - ack
             - git
+            - mercurial
+            - tmux
+            - htop-osx
+            - ssh-copy-id
+            - imagemagick
+            - rename
+            - tree
+            - cowsay
+            - optipng
+            - jpeg-turbo
+            - mysql
+            - postgresql
+            - redis
+            - wget
+            - phantomjs
         cask_apps:
             - google-chrome
-        cask_fonts:   
-            - inconsolata
+            - firefox
+            - opera
+            - java
+            - adobe-creative-cloud
+            - sourcetree
+            - sequel-pro
+            - pgadmin5
+            - chefdk
+            - virtualbox
+            - vagrant
+            - iterm2
+            - sublime-text
     nodejs:
         apps:
             - bower
