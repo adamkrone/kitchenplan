@@ -2,6 +2,7 @@ groups:
     - developer
 recipes:
     mac_os_x:
+        - sudoalt::default
         - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
@@ -23,15 +24,15 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         apps:
-	    - erlang
-	    - leiningen
-	    - siege
+            - erlang
+            - leiningen
+            - siege
         cask_apps:
             - adium
             - alfred
             - dash
             - dropbox
-	    - haskell-platform
+            - haskell-platform
             - kaleidoscope
             - lastpass-universal
             - libreoffice

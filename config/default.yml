@@ -31,7 +31,7 @@ attributes:
             - adobe-creative-cloud
             - sourcetree
             - sequel-pro
-	    - pgadmin3
+            - pgadmin3
             - chefdk
             - virtualbox
             - vagrant
