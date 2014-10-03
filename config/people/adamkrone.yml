@@ -26,20 +26,18 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         apps:
-          - erlang
-          - haskell-platform
-          - leiningen
-          - siege
+	    - erlang
+	    - leiningen
+	    - siege
         cask_apps:
             - adium
             - alfred
-            - crashplan
             - dash
             - dropbox
+	    - haskell-platform
             - kaleidoscope
             - lastpass-universal
             - libreoffice
-            - pharo
             - remote-desktop-connection
             - screenflow
             - spotify

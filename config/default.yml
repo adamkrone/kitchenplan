@@ -28,11 +28,10 @@ attributes:
             - google-chrome
             - firefox
             - opera
-            - java
             - adobe-creative-cloud
             - sourcetree
             - sequel-pro
-            - pgadmin5
+	    - pgadmin3
             - chefdk
             - virtualbox
             - vagrant
