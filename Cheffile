@@ -1,6 +1,6 @@
 site "http://community.opscode.com/api/v1"
 
-cookbook "homebrewalt",           :github => "kitchenplan/chef-homebrewalt",    :ref => "v1.8.7"
+cookbook "homebrewalt",           :github => "kitchenplan/chef-homebrewalt",    :ref => "dfbaa5b82c6895e9846111d80b01ac68b0021fd6"
 cookbook "nodejs",                :github => "kitchenplan/chef-nodejs",         :ref => "v1.2"
 cookbook "applications",          :github => "kitchenplan/chef-applications",   :ref => "v2.0.5"
 cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults",    :ref => "v1.0.3"
