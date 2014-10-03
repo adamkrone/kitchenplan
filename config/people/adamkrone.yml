@@ -15,9 +15,6 @@ recipes:
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
 attributes:
-    git:
-        name: Adam Krone
-        email: krone.adam@gmail.com
     authorization:
         sudo:
             users:
